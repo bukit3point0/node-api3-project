@@ -61,7 +61,7 @@ router.get('/:id/posts', logger, validateUserId, (req, res, next) => {
   Users.getUserPosts(req.params.id)
   .then(posts => {
     res.status(200).json(posts)
-  })
+  }) 
   .catch(next)
   // this needs a middleware to verify user id
 });
