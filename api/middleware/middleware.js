@@ -1,5 +1,5 @@
 function logger(req, res, next) {
-  // DO YOUR MAGIC
+  // DO YOUR MAGIC 
 }
 
 function validateUserId(req, res, next) {
